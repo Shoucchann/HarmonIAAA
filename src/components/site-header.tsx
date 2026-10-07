@@ -2,7 +2,12 @@ import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { BrandWordmark } from "@/components/brand-wordmark";
 
-const links = [{ href: "#solucao", label: "A plataforma" }, { href: "#funcionalidades", label: "Possibilidades" }, { href: "#tecnologia", label: "Tecnologia" }];
+const links = [
+  { href: "#parte-problema", label: "O problema" },
+  { href: "#parte-app", label: "Como funciona" },
+  { href: "#parte-impacto", label: "Impacto" },
+  { href: "#parte-comunidade", label: "Comunidade" },
+];
 
 export function SiteHeader() {
   return (
